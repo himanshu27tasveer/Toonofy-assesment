@@ -1,0 +1,168 @@
+html, body {
+	background-color: #4DA1FA;
+	color: black;
+	text-align: center;
+}
+
+.full{
+	width: 100%;
+}
+.right{
+	display: flex;
+	justify-content: flex-end;
+	color: black;
+}
+
+@media only screen and (max-width: 992px){
+	.right{
+		display: flex;
+		flex-direction: column;
+	}
+	
+}
+
+
+header{
+	color: #ffffff;
+	text-align: center;
+}
+
+header > h3{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.iframe{
+	border-radius: 35px;
+	width: 100%;
+	height:70vh;
+	border:0px;
+	opacity: 100%;
+	filter: contrast(130%) saturate(2) brightness(100%);
+}
+
+if-contain{
+	  position: relative;
+	  text-align: center;
+	  color: white;
+}
+
+
+.centered {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.content{
+	background: transparent radial-gradient(closest-side at 50% 50%, #48A4F6 0%, #2F8AE4 100%) 0% 0% no-repeat padding-box;
+	width: 100%;
+	margin-left: 10;
+	height: auto;
+	border: 1px solid #72BBFF;
+	border-radius: 35px;
+	opacity: 1;
+	padding: 20px 4px 20px 4px;
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+
+}
+
+.item{
+	vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.caption {
+    display: block;
+    font: normal normal bold 22px/60px Nunito;
+	letter-spacing: 1.3px;
+	color: #005AB2;
+	opacity: 1;
+    margin: auto auto 50px auto;
+}
+
+@media only screen and (max-width: 768px){
+	.item{
+		vertical-align: top;
+    	display: inline-block;
+    	text-align: center;
+	}
+}
+
+hr{
+	background: #81BEFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+	height: 3px;
+}
+
+
+/* footer */
+
+footer{
+	background: #377DC8 0% 0% no-repeat padding-box;
+	border-radius: 35px;
+	opacity: 1;
+	padding: 100px auto 20px auto;
+}
+
+
+.company{
+	text-align: left;
+	font: normal normal bold 20px/50px Nunito;
+	letter-spacing: 2px;
+	color: #000000;
+	opacity: 1;
+}
+
+footer > div > hr{
+	opacity: 1;
+	height: 2px;
+}
+
+.footer-text{
+	text-align: left;
+	font: normal normal normal 20px/30px Nunito;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	opacity: 1;
+	font-size: 18px;
+	color:#e4e4e4;
+	display: block;
+}
+
+.footer-1-links{
+	margin: 0px auto 50px auto;
+	text-align: left;
+	font: normal normal normal 22px/45px Nunito;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.comp-div{
+	margin-top: 20px;
+}
+
+
+
+.last-div{
+	background: #377DC8 0% 0% no-repeat padding-box;
+	border-radius: 24px;
+	opacity: 1;
+	margin: 40px auto 10px auto;
+}
+
+.icon{
+	background: #FFFFFF00 0% 0% no-repeat padding-box;
+	opacity: 1;
+	color: white;
+}
+
+.social{
+	text-align: right;
+}
